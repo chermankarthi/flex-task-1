@@ -1,0 +1,29 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.row{
+	display:flex;
+	flex-wrap:no wrap;	
+}
+
+.col1, .col2{
+	width:50%;
+}
+
+.col1{
+	margin:25px 10px 25px 50px;
+	height:450px;
+	font-size:20px;
+}
+
+.col2{
+	margin:25px 25px 25px 10px;
+}
+
+img.bac{
+	height:450px;
+	width:100%;
+}
